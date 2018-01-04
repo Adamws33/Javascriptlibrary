@@ -8,23 +8,22 @@
   <script>
   'use strict';
 
-let whosThere = prompt("Who's There?","Enter Name");
-let password = "";
+let whosThere = prompt("Who's There?","");
 
-if (name===""){
-    alert("Cancelled");
-}else if(name != "Admin"){
-    alert("I dont know you!");
-}else{
-    password = promot("password","Enter Password")
-    if (password = ""){
+if (whosThere == "Admin"){
+  let password = prompt("Password?","");
+    if (password == "TEAMsmith"){
+      alert("Welcome");
+    }else if (password ==null){
       alert("Cancelled");
-    }else if (password !="TEAMsmith"){
-      alert("I dont know you!")
     }else{
-      alert("Welcome")
+      alert("I dont know you!");
     }
-}
+}else if (whosThere == null){
+  alert("Cancelled")
+}else{
+  alert("I dont know you!");
+    }
 </script>
   
 </body>
