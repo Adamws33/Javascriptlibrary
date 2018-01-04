@@ -19,3 +19,8 @@
 // undefined - for unassigned values – a standalone type that has a single value undefined.
 // object - for more complex data structures.
 // symbol - for unique identifiers.
+
+// commands to push info to GitHub
+git add . //- set up files to be commited.  
+git commit //- sends files to commit (use with -m to add a message saying what was done)
+git push -u orgin master //- will send files to the master on github
