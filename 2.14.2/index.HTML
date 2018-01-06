@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Module 12.1</title>
+</head>
+<body>
+    Rewrite the code below using a single line without if statement:
+    (see in code)
+
+  <script>
+let x = +prompt("please enter value of a","#")
+let y = +prompt("please enter value of b","#")
+
+    function pow(a,b) {
+      let num = a;
+      for(i=1;i<b;i++){
+       num *= a;
+      }
+      return num
+  }
+  if (y<=1){
+    alert(`power ${y} is not supported, us an integer greater than 1`)
+  }else{
+alert(pow(x,y))
+  }
+  </script>
+
+</body>
+</html>
