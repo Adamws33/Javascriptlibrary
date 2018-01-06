@@ -24,3 +24,6 @@
 git add . //- set up files to be commited.  
 git commit -m "adding more to Random" //- sends files to commit (use with -m to add a message saying what was done)
 git push -u origin master //- will send files to the master on github
+
+// typeof null == "object" // error in the language
+// typeof function(){} == "function" // functions are treated specially

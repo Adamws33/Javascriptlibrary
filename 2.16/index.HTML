@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Module 12.1</title>
+</head>
+<body>
+    Rewrite the code below using a single line without if statement:
+    (see in code)
+
+  <script>
+let age = +prompt('Your age?', 18); //adding the plus in returns a number
+                                    //to the prompt and not a string
+
+switch (age) {
+  case 17:
+    alert("Won't work"); // the result of prompt is a string, not a number
+    break;
+  case "18":
+    alert("This works!");
+    break;
+
+  default:
+    alert("Any value not equal to one above");
+}
+  </script>
+
+</body>
+</html>
